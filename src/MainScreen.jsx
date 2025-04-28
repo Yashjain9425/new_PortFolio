@@ -30,7 +30,7 @@ export default function MainScreen() {
                     </p>
                     <h1 className="mainscreen-head">Yash Jain</h1>
                     <p className="mainscreen-subhead">I am a passionate Full Stack Developer with a knack for creating responsive, dynamic web applications. With solid experience in full-stack development, UI/UX design, and problem-solving, I bring ideas to life through clean, efficient code. My portfolio showcases innovative projects that blend functionality with creativity, reflecting my commitment to quality, performance, and user-centric design.</p>
-                    <Button href="https://drive.google.com/file/d/1h00swmw2nIXuFW5KJIqhLpoNyXRPLKUR/view?usp=sharing" target="__blank" variant="outline-light" className="me-4 rounded">Resume</Button>
+                    <Button href="https://drive.google.com/file/d/17sTkTCLaP57m2DySo8da1ns4c2nHba9-/view?usp=drive_link" target="__blank" variant="outline-light" className="me-4 rounded">Resume</Button>
                     {/* <Button href="https://drive.google.com/file/d/1N9UX6VTXqOrWjaVhhsW-4uR5Bx3Alw9B/view?usp=sharing" target="__blank" variant="outline-light">Watch Video CV</Button> */}
                 </div>
                 <div className={`mainscreen-img ${!imageLoaded ? 'loading' : ''}`}>
