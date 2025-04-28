@@ -1,6 +1,6 @@
 import { Container, Button } from "react-bootstrap";
 import PortfolioNav from "./Navbar";
-// import image from './assets/Passport.png'
+import image from './assets/Passport.png'
 import Typewriter from 'typewriter-effect';
 import { useState } from 'react';
 
@@ -35,7 +35,7 @@ export default function MainScreen() {
                 </div>
                 <div className={`mainscreen-img ${!imageLoaded ? 'loading' : ''}`}>
                     <img
-                        // src={image}
+                        src={image}
                         alt="Profile"
                         onLoad={() => setImageLoaded(true)}
                         onError={() => setImageLoaded(false)}

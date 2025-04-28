@@ -8,10 +8,7 @@ import image1 from './assets/Certificates/Screenshot 2025-04-28 005244.png';
 import image2 from "./assets/Certificates/Screenshot 2025-04-28 005800.png";
 import image3 from "./assets/Certificates/Screenshot 2025-04-28 010017.png";
 import image4 from "./assets/Certificates/Screenshot 2025-04-28 010034.png";
-// import image5 from "./assets/Certificates/Screenshot 2024-09-19 161536.png";
-// import image6 from "./assets/Certificates/Screenshot 2024-09-19 161612.png";
-// import image7 from "./assets/Certificates/Screenshot_20230106_180114.png";
-// import image8 from "./assets/Certificates/Screenshot_20230226_204733.png";
+
 
 const getTouches = (evt) => {
   return (
