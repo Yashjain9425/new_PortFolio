@@ -1,0 +1,92 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.4);
+  width: 100%;
+}
+
+.logo-wrap img {
+  max-width: 100%;
+  height: auto;
+}
+
+.list-item {
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  margin: auto 1em;
+  margin-top: 5px;
+  font-size: large;
+  letter-spacing: 1.5px;
+  color: #fff !important;
+  font-weight: 600;
+  position: relative;
+  max-width: 100%;
+}
+
+.list-item:hover,
+.list-item:active {
+  color: purple;
+}
+
+.list-item::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 3px;
+  background-color: purple;
+  visibility: hidden;
+  transition: 0.3s ease-in-out;
+}
+
+.list-item:hover::before,
+.list-item:active::before {
+  width: 100%;
+  visibility: visible;
+}
+
+#contact-btn {
+  border: none;
+  border-radius: 30px;
+  width: 10rem;
+  height: 3.5rem;
+  letter-spacing: 1.5px;
+  font-size: 18px;
+  background-color: purple;
+  color: white;
+  justify-self: end !important;
+}
+
+.offcanvas-body {
+  overflow-x: hidden;
+}
+
+.offcanvas.offcanvas-end {
+  max-width: 100vw;
+}
+
+@media (max-width: 576px) {
+  .nav-bar {
+    border-radius: 0;
+    width: 100%;
+  }
+
+  #contact-btn {
+    margin-top: 90%;
+  }
+}
