@@ -135,14 +135,14 @@ export default function Projects() {
             img: [P2img1, P2img2, P2img3],
             heading: "To Do Master App",
             live: "https://to-do-master-main.vercel.app/",
-            github: "https://github.com/Abhay-Bharti/ToDoMaster",
+            github: "",
             description: 'The app features functionalities are task creation, updating, and deletion, allowing users to organize their tasks effortlessly.Additionally, it includes user profile creation, updating, and deletion, ensuring users can securely manage their profiles.I created a seamless and user-friendly application that provides a reliable platform for managing both user information and tasks.',
             tech: ["MongoDb", "Express.Js", "Node.Js", "React.Js"]
         },
         {
             img: [P4img1, P4img2, P4img3],
             heading: "Weather Cast",
-            github: 'https://github.com/Abhay-Bharti/Weather-cast',
+            github: '',
             live: "https://weather-cast-project.vercel.app/",
             description: 'Weather Cast is a sleek and user-friendly weather app that provides real-time weather updates, hourly forecasts, air conditions, and a detailed 7-day forecast. With features like location-based search and key metrics such as real feel, wind speed, chance of rain, and UV index, users can easily plan their day and week ahead with confidence.',
             tech: ["HTML5", "Tailwind CSS", "Javascript", "ReactJs"]
@@ -151,7 +151,7 @@ export default function Projects() {
             img: [P3img1, P3img2, P3img3, P3img4, P3img5],
             heading: "Agriter: Agri-Tourism",
             live: "https://abhay-bharti.github.io/Agriter/",
-            github: "https://github.com/Abhay-Bharti/Agriter",
+            github: "",
             description: 'This project is based on agri-tourism and aims to promote agriculture through a user-friendly platform. It features fully optimized mobile responsiveness, ensuring a seamless experience on all devices. With a concise and clean user interface, navigating the platform is straightforward and efficient. The project leverages Bootstrap and jQuery, providing robust frameworks for building responsive, dynamic, and visually appealing web pages.',
             tech: ["HTML5", "CSS3", "Javascript", "Bootstrap", "JQuery"]
         },
