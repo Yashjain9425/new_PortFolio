@@ -12,9 +12,9 @@ import P3img5 from './assets/Projects/Project3_5.png';
 import P4img1 from './assets/Projects/Project4_1.png';
 import P4img2 from './assets/Projects/Project4_2.png';
 import P4img3 from './assets/Projects/Project4_3.png';
-import P1img1 from './assets/Projects/Project1_1.png';
-import P1img2 from './assets/Projects/Project1_2.png';
-import P1img3 from './assets/Projects/Project1_3.png';
+import P1img1 from './assets/Projects/project1_1.png';
+import P1img2 from './assets/Projects/project1_2.png';
+import P1img3 from './assets/Projects/project1_3.png';
 import ProjectCarousel from './Components/ProjectCarousel';
 
 const ProjectCard = ({ info, index }) => {
